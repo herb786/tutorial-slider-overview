@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
+    android:background="#2A2E3E"
     tools:context="com.example.herbertcaller.petshop.SliderOverviewActivity">
 
     <ImageView
@@ -38,6 +39,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/page_number"
         tools:text="1"
+        android:textColor="#fff"
         android:textSize="32dp"
         android:gravity="center" />
 
